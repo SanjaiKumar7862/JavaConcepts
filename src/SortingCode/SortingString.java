@@ -15,6 +15,7 @@ public class SortingString {
 		
 		Arrays.sort(arr);
 		
+		
 		//Convert back to String
 		String str1 = new String(arr);
 		

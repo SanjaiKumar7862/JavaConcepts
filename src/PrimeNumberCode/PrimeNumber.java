@@ -16,6 +16,7 @@ public class PrimeNumber {
 		{
 			isPrime = false;
 		}
+		
 		else
 		{
 			for(int i=2; i <= Math.sqrt(number); i++)

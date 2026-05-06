@@ -21,7 +21,8 @@ public class FindLastWordLengthinString {
 		{
 			System.out.println(s + s.length());
 		}
-
+		
+		System.out.println("Length: " + lastspaceindex);
 	}
 
 }

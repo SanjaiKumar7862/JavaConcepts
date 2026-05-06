@@ -1,6 +1,7 @@
 package ArrayRelatedCode;
 
 import java.util.Arrays;
+import java.util.*;
 
 public class LargestandSmallest {
 
@@ -43,7 +44,21 @@ public class LargestandSmallest {
 		System.out.println("Second Largest: " + secondlargest);
 		
 		
-//3.		
+//another approach
+		
+		        int[] arrr = {5, 3, 9, 9, 7};
+
+		        Set<Integer> set = new HashSet<>();
+		        for (int num : arrr) {
+		            set.add(num);
+		        }
+
+		        List<Integer> list = new ArrayList<>(set);
+		        Collections.sort(list);
+
+		        System.out.println("Second Largest: " + list.get(list.size() - 2));
+		  	
+
 		
 
 	}
